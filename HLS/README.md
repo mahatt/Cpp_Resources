@@ -13,3 +13,7 @@ THunderGP, Competating Publication in 2021 For Xilinx Patent Application Rejecte
 
 ## Youtube
 FPGA Conference Videos https://www.youtube.com/@isfpga2160/videos
+
+
+# Binding Algorithm
+* Hungarian Algorithm  LibHungarian 
