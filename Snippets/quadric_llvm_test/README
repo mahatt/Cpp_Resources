@@ -1,0 +1,22 @@
+
+
+### Steps followed
+
+* Create Out of Tree pass from [instructions](https://llvm.org/docs/CMake.html#developing-llvm-passes-out-of-source)
+  
+
+## Compiling Pass
+
+* Make Sure llvm/tools are in PATH Needed clang,llvm-config,opt
+* In Quadric Directory, do Make which generates LoopMetadata.so
+
+
+## Running Pass
+* switch to tests
+* runpass.sh <src_file>.cpp
+* generate Transformed ll file.
+
+
+## Good Testing Practise with LLVM
+* Using File Check test to clearly check transform intented and transform performed.
+

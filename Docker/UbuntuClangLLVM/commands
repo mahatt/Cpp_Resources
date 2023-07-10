@@ -1,0 +1,15 @@
+# Pwoershell
+
+## Build Image
+
+Get-Contents  Dockerfile  | docker build -t uclang .
+
+
+## Run Image as Container And Detach
+docker run -d -it  -v "C:\UbuntuWork\docker_work:/data" --name=uclang  uclangc  /bin/bash 
+
+## Open Terminal 
+docker -exec -it uclang bash
+
+## Stop
+docker stop ugit
